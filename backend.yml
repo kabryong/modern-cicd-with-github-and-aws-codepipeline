@@ -281,6 +281,7 @@ Resources:
   ECSServiceName:
     Description: "Name of the ECS Service"
     Value: !Ref ECSService
+
 Outputs:
   DynamoDBTableName:
     Description: "Name of the DynamoDB Table"
